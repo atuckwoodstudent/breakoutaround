@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Simulation.cpp" />
+    <ClCompile Include="GameClasses.cpp" />
+    <ClCompile Include="VisualDebugger.cpp" />
+    <ClCompile Include="Extras\MyCloth.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\BmpLoader.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\DrawObjects.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\GLFontRenderer.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\HUD.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\Stream.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\Timing_WIN.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\UserData.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\wavefront.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\DebugRenderer.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\MediaPath_WIN.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Breakout.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameClasses.h" />
+    <ClInclude Include="Simulation.h" />
+    <ClInclude Include="VisualDebugger.h" />
+    <ClInclude Include="Extras\BmpLoader.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\MyCloth.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\wavefront.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\DrawObjects.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\GLFontData.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\GLFontRenderer.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\HUD.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\Stream.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\Timing.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\UserData.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\DebugRenderer.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Extras">
+      <UniqueIdentifier>{eb8314d3-36e6-4168-9d5d-a83e052a5c00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
